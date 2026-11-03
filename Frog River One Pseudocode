@@ -1,0 +1,11 @@
+Create array called visted of size n+1
+Initialize all elements of visited to false
+covered = 0
+loop for i=0 to Length of A -1
+    Position = A[i]
+    If Not visited[position]:
+        visited[position] = True
+        add 1 to covered
+    If covered = X then:
+        return i
+Return -1
