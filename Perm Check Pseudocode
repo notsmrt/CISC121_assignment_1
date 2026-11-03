@@ -1,0 +1,9 @@
+n = length of A
+Create an array called visited of size n+1 & set all default values to false.
+Loop for i=0 To n-1:
+    If A[i] < 1 or A[i] > n then:
+        return 0
+    If visited[A[i]] = true then:
+        return 0
+    Visited[A[i]] = True
+return 1
