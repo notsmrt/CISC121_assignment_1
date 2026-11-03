@@ -1,0 +1,7 @@
+Loop for i=0 to length of A -1
+    count = 0
+    Loop for j=0 to length of A -1
+        If A[i] = A[j] then:
+            add 1 to count
+    If count = 1 then:
+        return A[i]
