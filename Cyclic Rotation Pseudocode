@@ -1,0 +1,10 @@
+n = Length of A
+If n = 0 then return A
+otherwise
+K = K modulo n
+Loop for i to K:
+    last element = A[n-1]
+    Loop for j = n-1 down to 1:
+        A[j] = A[j-1]
+    A[0] = last element
+Return A
